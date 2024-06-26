@@ -3,7 +3,7 @@ import streamlit as st
 from dotenv import load_dotenv
 import google.generativeai as genai
 
-from twilio_challenge_santosh.personalize import personalize
+from personalize import personalize
 
 # Load environment variables
 load_dotenv()

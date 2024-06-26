@@ -1,9 +1,9 @@
 from fuzzywuzzy import fuzz
 import os, json
-from twilio_challenge_santosh.sendgrid_email_api import sendgrid_mail
-from twilio_challenge_santosh.emails_list import email_list
+from sendgrid_email_api import sendgrid_mail
+from emails_list import email_list
 import streamlit as st
-from twilio_challenge_santosh.twilio_sms_api import send_whatsapp_sms
+from twilio_sms_api import send_whatsapp_sms
 
 
 def fuzzy_search(word, sentence, threshold=85):
